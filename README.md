@@ -53,7 +53,13 @@ List of countries and their information is obtained from [Rest Countries](https:
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8) was to build an application to complete the given user stories:
+
+- I can see select an answer
+- I can see if my answer is correct or incorrect
+- When I answer correctly, I can move on to the next question
+- When I answer incorrectly, I can see my results and try again
+- I can try again
 
 ## How To Use
 

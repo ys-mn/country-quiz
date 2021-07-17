@@ -93,6 +93,9 @@ export default function MainPage() {
                   Next
                 </button>
               )}
+              <button onClick={handleTryAgain} className="try-again">
+                Try Again
+              </button>
             </>
           ) : loading ? (
             <div className="loader">
