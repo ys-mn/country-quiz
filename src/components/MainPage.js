@@ -27,13 +27,12 @@ export default function MainPage() {
     return arr;
   };
 
-  // eslint-disable-next-line
   const createQ = () => {
     setLoading(true);
     const template = Math.floor(Math.random() * 2);
     const info = fourRandomNumbers();
     const ans = Math.floor(Math.random() * 4);
-    console.log(template, info, ans);
+    // console.log(template, info, ans);
     if (template === 0) {
       const city = data[info[ans]].capital;
       const q = {
@@ -73,10 +72,10 @@ export default function MainPage() {
   };
 
   useEffect(() => {
-    if (data.length) {
+    if (data.length && question === undefined) {
       createQ();
     }
-  }, [data, createQ]);
+  }, [data]);
 
   return (
     <>
