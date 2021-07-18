@@ -107,7 +107,7 @@ export default function MainPage() {
         </div>
       </div>
       <h6 className="credits">
-        created by <b>YsmnLtf</b> - devChallenges.io
+        created by <b>Ysmn</b> - devChallenges.io
       </h6>
     </>
   );
