@@ -12,7 +12,7 @@ export default function MainPage() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     axios
-      .get('https://restcountries.eu/rest/v2/all?fields=name;capital;flag')
+      .get('https://restcountries.com/v3.1/all?fields=name;capital;flag')
       .then((res) => {
         setData(res.data);
       });
