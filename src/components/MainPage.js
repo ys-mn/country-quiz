@@ -75,7 +75,7 @@ export default function MainPage() {
     if (data.length && question === undefined) {
       createQ();
     }
-  }, [data, question, createQ]);
+  }, [data, question]);
 
   return (
     <>
